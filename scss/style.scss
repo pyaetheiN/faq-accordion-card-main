@@ -100,6 +100,8 @@ img{
   // ===== desktop approach ===== \\
 
   @include xl {
+    padding: 4.5em 3.5em;
+    
     .pics-container{
       margin-left: -15%;
     }
