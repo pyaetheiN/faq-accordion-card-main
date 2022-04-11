@@ -1,0 +1,35 @@
+// media queries mixins
+
+$screen-xl-min: 968px;
+
+$screen-lg-max: 968px;
+
+$screen-md-max: 768px;
+
+$screen-sm-max: 468px;
+
+$screen-xs-max: 380px;
+
+@mixin xl {
+  @media screen and (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media screen and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}

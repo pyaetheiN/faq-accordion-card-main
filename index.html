@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Ricky | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+  <main>
+    <img class="card__box" src="images/illustration-box-desktop.svg" alt="illustration-of-box">
+    <section class="card">
+      <div class="pics-container">
+        <picture class="pics-woman">
+          <source media="(min-width: 968px)" srcset="images/illustration-woman-online-desktop.svg">
+          <source media="(max-width: 968px)" srcset="images/illustration-woman-online-mobile.svg">
+          <img class="card__woman" src="images/illustration-woman-online-desktop.svg" alt="illustration-of-woman">
+        </picture>
+        <picture class="pics-bg">
+          <source media="(min-width: 968px)" srcset="images/bg-pattern-desktop.svg">
+          <source media="(max-width: 968px)" srcset="images/bg-pattern-mobile.svg">
+          <img class="card__bg" src="images/bg-pattern-desktop.svg" alt="illustration-of-background-pattern">
+        </picture>
+      </div>
+      <div class="card__text">
+        <h1 class="card__title">FAQ</h1>
+        <div class="card__questions">
+          <!-- ===== ques 1 ===== -->
+          <div class="card__ques close">
+            <div class="card__header">
+              <h3>How many team members can I invite?</h3>
+              <i class="uil uil-angle-down icon"></i>
+            </div>
+            <div class="card__desc">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <hr class="divider">
+          <!-- ===== ques 2 ===== -->
+          <div class="card__ques open">
+            <div class="card__header">
+              <h3>What is the maximum file upload size?</h3>
+              <i class="uil uil-angle-down icon"></i>
+            </div>
+            <div class="card__desc">
+              <p>
+                No more than 2GB. All files in your account must fit your allotted storage space.
+              </p>
+            </div>
+          </div>
+          <hr class="divider">
+          <!-- ===== ques 3 ===== -->
+          <div class="card__ques close">
+            <div class="card__header">
+              <h3>How do I reset my password?</h3>
+              <i class="uil uil-angle-down icon"></i>
+            </div>
+            <div class="card__desc">
+              <p>
+                Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <hr class="divider">
+          <!-- ===== ques 4 ===== -->
+          <div class="card__ques close">
+            <div class="card__header">
+              <h3>Can I cancel my subscription?</h3>
+              <i class="uil uil-angle-down icon"></i>
+            </div>
+            <div class="card__desc">
+              <p>
+                Yes! Send us a message and we’ll process your request no questions asked.
+              </p>
+            </div>
+          </div>
+          <hr class="divider">
+          <!-- ===== ques 5 ===== -->
+          <div class="card__ques close">
+            <div class="card__header">
+              <h3>Do you provide additional support?</h3>
+              <i class="uil uil-angle-down icon"></i>
+            </div>
+            <div class="card__desc">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open during normal business hours
+              </p>
+            </div>
+          </div>  
+          <hr class="divider">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
