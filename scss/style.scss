@@ -105,19 +105,17 @@ img{
     }
     &__woman{
       max-width: 500px;
-      z-index: 2;
     }
     &__bg{
       position: absolute;
       max-width: 900px;
       transform: translate(-100%, -36%);
-      z-index: 1;
     }
     // pos ab calculated from main
     &__box{
       position: absolute;
       transform: translate(-50%, 95%);
-      z-index: 3;
+      z-index: 999;
     }
   }
 
@@ -138,7 +136,7 @@ img{
     justify-content: space-between;
     cursor: pointer;
 
-    h3{
+    h2{
       font-size: 1.4em;
       color: $dark-grayish-blue;
       font-weight: 500;
@@ -152,7 +150,7 @@ img{
     }
     &:hover{
 
-      h3{
+      h2{
         color: $soft-red;
       }
     }
@@ -182,7 +180,7 @@ img{
 // ===== Method (1) ===== \\
 // .card__header.active{
     
-//   h3{
+//   h2{
 //     color: $very-dark-desaturated-blue;
 //   }
 //   .icon{
@@ -199,7 +197,7 @@ img{
 }
 .open{
 
-  h3{
+  h2{
     color: $very-dark-desaturated-blue;
     font-weight: 700;
   }
