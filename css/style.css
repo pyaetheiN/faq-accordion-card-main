@@ -149,8 +149,8 @@ img {
   }
   .card__box {
     position: absolute;
-    -webkit-transform: translate(-50%, 95%);
-            transform: translate(-50%, 95%);
+    -webkit-transform: translate(-50%, 105%);
+            transform: translate(-50%, 105%);
     z-index: 999;
   }
 }
