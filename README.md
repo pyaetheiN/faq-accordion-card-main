@@ -88,7 +88,7 @@ cardHeader.forEach((el) => {
 ## Author
 
 - Frontend Mentor - [@pyaetheiN](https://www.frontendmentor.io/profile/pyaetheiN)
-- Twitter - [@pt_boyyy](https://www.twitter.com/pt_boyyy
+- Twitter - [@pt_boyyy](https://www.twitter.com/pt_boyyy)
 
 ## Acknowledgments
 
